@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #252525;
+    color: #fff;
+
+}
+
+.nav-items{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+/* section{
+    background-color: burlywood;
+    height: 100vw;
+    width: 100%;
+    border: 1px solid black;
+} */
+
+#home{
+    background: url(./home.png);
+    background-size: contain;
+    height: 900px;
+    width: 1912px;
+    box-sizing: border-box;
+}
+
+
+#home .introduction{
+    display: flex;
+    /* background-color: aquamarine; */
+    padding-top: 199.8px;
+    width: fit-content;
+    align-items: center;
+    margin-inline: auto;
+}
+
+#home p{
+    display: flex;
+    flex-direction: column;
+}
+
+#home img{
+    height: 700px;
+    filter: drop-shadow(-50px 0 0 grey);
+}
+
+
+
+
+.greeting, .student{
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+.student{
+    font-weight: 700;
+    color: #FFC331;
+}
+.name{
+    font-size: 5em;
+    color: whitesmoke;
+}
