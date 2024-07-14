@@ -169,7 +169,7 @@
 }
 
 #tech h1{
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -214,4 +214,156 @@
     position: relative;
     top: -20px;
     left: 45px;
+}
+
+
+#projects{
+    background: url(./about.png);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+#projects h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#projects .container{
+    width: 60rem;
+    justify-content: center;
+    margin: 50px auto;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 40px;
+}
+
+
+#projects .card{
+    background-color: #1a1a1a;
+    width: 18rem;
+    border:4px solid whitesmoke;
+    border-width: 0px 5px;
+    border-radius: 7px;
+}
+
+#projects .card .cardPic{
+    height: 7rem;
+    width: 18rem;
+}
+
+#projects .card .info .cardTitle{
+    font-size: 1.2em;
+}
+
+#projects .card .info .cardDesc{
+    font-size: .8em;
+    color: grey;
+    text-transform: capitalize;
+}
+
+#projects .card input[value="DEMO"]{
+    background-color: #FFC331;
+    color: black;
+
+}
+
+#projects .card input[value="SOURCE CODE"]{
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+.info hr{
+    margin: 5px 0;
+}
+
+.info section{
+    text-align: center;
+}
+
+
+
+.info{
+    margin: 0 20px;
+}
+
+.card input{
+    width: 120px;
+    height: 2rem;
+    border-radius: 5px;
+    font-weight: bold;   
+    margin: 7px 1px;
+}
+
+
+#contact{
+    background: url(./home.png);
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    color: whitesmoke;
+    text-transform: uppercase;
+
+}
+
+#contact .container{
+    padding-top: 50px;
+    text-align: center;
+}
+
+#contact .socials{
+    margin: 15px;
+}
+
+#contact .container .socials a{
+    margin: 20px;
+    color: black;
+}
+
+#contact .container .socials i{
+    font-size: 2.5em;
+    
+}
+
+
+#contact form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea{
+    display: block;
+    width: 30rem;
+    margin: 10px 0;
+
+    border-radius: 5px;
+    line-height: 2em;
+
+}
+
+
+footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+footer p{
+    padding:2px 0;
+}
+
+footer p span{
+    color: #FFC331;
+    font-weight: bold;
 }
