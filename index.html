@@ -6,12 +6,16 @@
     <title>Barry Adam ~ Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <header>
         <nav class="navigation">
-            <img src="" alt="myLogo">
+            <img src="./logo.png" alt="myLogo">
             <ul class="nav-items">
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
@@ -55,8 +59,10 @@
                     </p>
 
                     <div class="btns">
-                        <input type="button" value="VIEW RESUME">
-                        <input type="button" value="LET'S TALK">
+                        <a href="#" class="resume">VIEW RESUME</a>
+                        <a href="#">LET'S TALK</a>
+                        <!-- <input type="button" value="VIEW RESUME">
+                        <input type="button" value="LET'S TALK"> -->
                     </div>
 
                 </div>
@@ -71,9 +77,7 @@
                     <p class="toolName">Python</p>
 
                     <div class="progress">
-                        <div class="max">
-                            <div class="current">83%</div>
-                        </div>
+                            <div class="current" per="83%" style="max-width:83%;"></div>
                     </div>
 
                 </div>
@@ -83,9 +87,7 @@
                     <p class="toolName">Tkinter</p>
 
                     <div class="progress">
-                        <div class="max">
-                            <div class="current">66%</div>
-                        </div>
+                            <div class="current" per="66%" style="max-width: 66%;"></div>
                     </div>
 
                 </div>
@@ -95,9 +97,9 @@
                     <p class="toolName">Django</p>
 
                     <div class="progress">
-                        <div class="max">
-                            <div class="current">20%</div>
-                        </div>
+                        
+                            <div class="current" per="20%" style="max-width:20%;"></div>
+                        
                     </div>
 
 
@@ -108,9 +110,9 @@
                     <p class="toolName">PSQL</p>
 
                     <div class="progress">
-                        <div class="max">
-                            <div class="current">31%</div>
-                        </div>
+                        
+                            <div class="current" per="31%" style="max-width: 31%;"></div>
+                        
                     </div>
 
                 </div>
@@ -120,9 +122,9 @@
                     <p class="toolName">Html</p>
 
                     <div class="progress">
-                        <div class="max">
-                            <div class="current">62%</div>
-                        </div>
+                        
+                            <div class="current" per="62%" style="max-width: 62%;"></div>
+                        
                     </div>
 
 
@@ -134,9 +136,9 @@
                     <p class="toolName">Css</p>
 
                     <div class="progress">
-                        <div class="max">
-                            <div class="current">42%</div>
-                        </div>
+                        
+                            <div class="current" per="42%" style="max-width: 42%;"></div>
+                        
                     </div>
 
                 </div>
@@ -147,9 +149,9 @@
                     <p class="toolName">Javascript</p>
                     
                     <div class="progress">
-                        <div class="max">
-                            <div class="current">34%</div>
-                        </div>
+                        
+                            <div class="current" per="34%" style="max-width: 34%;"></div>
+                        
                     </div>
 
 
@@ -166,11 +168,11 @@
                     <img src="./tools/django.png" alt="" class="cardPic">
                     <div class="info">
                         <p class="cardTitle">DATA SEEA</p>
-                        <p class="cardDesc">Creating Data Visualizer with python libraries</p>
+                        <p class="cardDesc">Creating Data Visualizer with python libraries for easy visualization of data</p>
                         <hr>
                         <section>
-                            <input type="button" value="DEMO">
-                            <input type="button" value="SOURCE CODE">
+                            <a href="#" class="demo">DEMO</a>
+                            <a href="#" class="source">SOURCE CODE</a>
                         </section>
                     </div>
                 </div>
@@ -183,8 +185,8 @@
                         <p class="cardDesc">Creating a mini game using javascript and basic html and css</p>
                         <hr>
                         <section>
-                            <input type="button" value="DEMO">
-                            <input type="button" value="SOURCE CODE">
+                            <a href="#" class="demo">DEMO</a>
+                            <a href="#" class="source">SOURCE CODE</a>
                         </section>
                     </div>
                 </div>
@@ -194,11 +196,11 @@
                     <img src="./tools/django.png" alt="" class="cardPic">
                     <div class="info">
                         <p class="cardTitle">Enrollment Form</p>
-                        <p class="cardDesc">Creating a form for an online enrollment</p>
+                        <p class="cardDesc">Creating a form for an online enrollment in a campus to avoid crowd</p>
                         <hr>
                         <section>
-                            <input type="button" value="DEMO">
-                            <input type="button" value="SOURCE CODE">
+                            <a href="#" class="demo">DEMO</a>
+                            <a href="#" class="source">SOURCE CODE</a>
                         </section>
                     </div>
                 </div>
@@ -211,14 +213,15 @@
                         <p class="cardDesc">A calculator made using the basic of javascript</p>
                         <hr>
                         <section>
-                            <input type="button" value="DEMO">
-                            <input type="button" value="SOURCE CODE">
+                            <a href="#" class="demo">DEMO</a>
+                            <a href="#" class="source">SOURCE CODE</a>
                         </section>
                     </div>
                 </div>
 
             </div>
-            <p style="text-align:center;">SEE MORE</p>
+            <!-- <p style="text-align:center;">SEE MORE</p> -->
+            <a href="#" class="seeMore">SEE MORE</a>
         </section>
         <section id="contact">
             <div class="container">
