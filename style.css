@@ -19,13 +19,20 @@
   }
 
 
+
 .navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 60px;
-    background-color: #252525;
-    color: #fff;
+    background-color: #fff;
+    color: #252525;
+
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
 
 }
 
@@ -45,7 +52,7 @@
 .nav-items a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    color: #252525;
     letter-spacing: 1.5px;
     position: relative;
 }
